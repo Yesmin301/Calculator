@@ -1,0 +1,18 @@
+body{
+    background-color:rgb(240, 17, 177);
+}
+hr{
+    color: black;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    font-size:x-large;
+    color: rgba(5, 1, 7, 0.811);
+    background-color: rgba(26, 207, 108, 0.719);
+    
+}
+input[type="text"]{
+    width: 400px;
+    height: 50px;
+}
