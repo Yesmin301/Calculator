@@ -14,25 +14,29 @@
     <br>
     <br>
     <hr>
+    <div class="calc-container ">
     <!--Start of calculator-->
-    <table class="text-center d-flex justify-content-center">
-        <tr>
-            <td colspan="4">
-                <input type="text" id="result">
+    <table class="text-center" >
+        <tr >
+            <td colspan="4" >
+                <input type="text" id="result" placeholder="0" class="col-col">
+                <br>
+                <br>
             </td>
         </tr>
         <tr>
+            
             <td>
                 <button type="button" class="btn btn-primary" onclick="clrResult()">C</button>
-            </td>
-            <td>
-                <button type="button" class="btn btn-primary" onclick="">()</button>
             </td>
             <td>
                 <button type="button" class="btn btn-primary" onclick="precentage('')">%</button>
             </td>
             <td>
                 <button type="button" class="btn btn-primary" onclick="buttonNum('/')">/</button>
+            </td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="plusMinus()">+/-</button>
             </td>
         </tr>
         <tr>
@@ -79,21 +83,18 @@
         </tr>
         <tr>
             <td>
-                <button type="button" class="btn btn-primary" onclick="plusMinus()">+/-</button>
-            </td>
-            <td>
                 <button type="button" class="btn btn-primary" onclick="buttonNum('0')">0</button>
             </td>
             <td>
                 <button type="button" class="btn btn-primary" onclick="buttonNum('.')">.</button>
             </td>
-            <td>
-                <button type="button" class="btn btn-primary" onclick="calculateResut()">=</button>
+            <td colspan="2"> 
+                <button type="button" class="btn btn-primary btn2"  onclick="calculateResut()">=</button>
             </td>
         </tr>
     </table>
     <!--End of calculator-->
-    
+</div>  
 
 
 
